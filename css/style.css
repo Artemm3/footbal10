@@ -1,19 +1,35 @@
 body {
     font-family: "Arial";
     margin: 0;
+
 }
 
 
 
+.main{
+    background-color: #8dc63f;
+}
 
-.info b {
+.header{
+    background-color: #8dc63f; 
+}
+
+
+.info p {
     font-size: 22px;
     color: #39930d;
     display: block;
+    margin: 0;
 }
 
+.header-line{
+    padding-top: 25px;
+}
+
+
 .wrapper {
-    padding: 0 10px;
+    box-sizing: border-box;
+    padding: 0 15px;
     margin: auto;
     max-width: 960px;
 }
@@ -23,40 +39,44 @@ body {
     color: #39930d;
     font-weight: bold;
     display: block;
-    padding-bottom: 12px;
+    margin-bottom: 12px;
 }
 
 .info {
-    padding-right: 34px;
-    padding-bottom: 25px;
+    margin-right: 34px;
+    margin-bottom: 25px;
 }
 
 
 .left-container {
     display: flex;
-    padding-top: 25px;
 }
+
+
 
 .info i {
     font-size: 14px;
-    line-height: 7px;
     color: #5a5a5a;
     font-family: "Arial";
 }
 
+.wrapper{
+    background-color: #fff;
+}
+
+
+
+
 .header-line {
+    padding-top: 25px;
     display: flex;
     justify-content: space-between;
 }
 
-.right-container {
-    padding-top: 15px;
-}
 
 
 .number a {
     font-size: 22px;
-    line-height: 7px;
     color: #39930d;
     text-align: right;
     text-decoration: none;
@@ -64,15 +84,12 @@ body {
 
 .tel {
     font-size: 22px;
-    line-height: 7px;
     color: #39930d;
     text-align: right;
-
 }
 
 .working {
     font-size: 14px;
-    line-height: 7px;
     color: #5a5a5a;
     font-style: italic;
     font-family: "Arial";
@@ -81,7 +98,6 @@ body {
 
 .main-info h1 {
     font-size: 24px;
-    line-height: 7px;
     color: #39930d;
     font-weight: bold;
 }
@@ -109,10 +125,10 @@ ul {
 
 .news h3 {
     font-size: 18px;
-    line-height: 7px;
     color: #ffffff;
     background-color: #39930d;
-    padding: 25px;
+
+    padding: 13px;
     
 }
 
@@ -130,16 +146,23 @@ ul {
 }
 
 .last-news{
-    padding-right: 80px;
+    margin-right: 80px;
 }
 
 footer {
-    background-color: #39930d;
-    padding: 30px;
+    background-color: #8dc63f;
 }
+
+
+.foot-wrap{
+    padding: 0px 0px;
+}
+
 
 footer p {
     font-size: 14px;
-    line-height: 7px;
-    color: #ffffff;
+    color: #fff;
+     background-color: #39930d;
+     padding: 20px;
+     margin: 0;
 }
