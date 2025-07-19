@@ -106,6 +106,7 @@ ul {
     display: flex;
     list-style: none;
     flex-wrap: wrap;
+    padding: 2px;
     
 }
 
