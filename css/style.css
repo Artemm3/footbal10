@@ -1,7 +1,7 @@
 body {
     font-family: "Arial";
-    margin: 0 auto ;
-    
+    margin: 0 auto;
+
 
 }
 
@@ -110,7 +110,7 @@ ul {
     list-style: none;
     flex-wrap: wrap;
     padding: 2px;
-    margin: 10px;
+    margin: 0 20px 0 ;
 
 }
 
@@ -129,10 +129,11 @@ ul {
 }
 
 .news h3 {
+    
     font-size: 18px;
     color: #ffffff;
     background-color: #39930d;
-    padding: 10px;
+    padding: 8px 20px;
 
 }
 
