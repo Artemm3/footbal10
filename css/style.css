@@ -1,18 +1,10 @@
 body {
     font-family: "Arial";
-    margin: 0 auto;
-
-
-}
-
-
-
-.main {
+    margin: 0 ;
     background-color: #8dc63f;
-}
+  
 
-.header {
-    background-color: #8dc63f;
+
 }
 
 
@@ -45,7 +37,6 @@ body {
 
 .info {
     margin-right: 34px;
-    margin-bottom: 25px;
 }
 
 
@@ -69,7 +60,6 @@ body {
 
 
 .header-line {
-    padding-top: 25px;
     display: flex;
     justify-content: space-between;
 }
@@ -121,7 +111,7 @@ ul {
 .main-info p {
     font-size: 14px;
     line-height: 21px;
-    color: #343434;
+    color: #343434;    
 }
 
 .news {
@@ -129,12 +119,10 @@ ul {
 }
 
 .news h3 {
-    
     font-size: 18px;
     color: #ffffff;
     background-color: #39930d;
     padding: 8px 20px;
-
 }
 
 .news a {
@@ -143,11 +131,10 @@ ul {
     text-decoration: underline;
     text-transform: uppercase;
     color: #39930d;
-
 }
 
 .main-info {
-    padding-bottom: 62px;
+    padding-bottom: 33px;
 }
 
 .last-news {
