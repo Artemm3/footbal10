@@ -1,12 +1,9 @@
 body {
     font-family: "Arial";
-    margin: 0 ;
+    margin: 0;
     background-color: #8dc63f;
-  
-
-
+    cursor: url('/cursor/football.cur'), auto;
 }
-
 
 .info p {
     font-size: 22px;
@@ -15,10 +12,13 @@ body {
     margin: 0;
 }
 
+a:hover {
+    cursor: url('/cursor/finger.cur'), auto;
+}
+
 .header-line {
     padding: 25px 0px;
 }
-
 
 .wrapper {
     box-sizing: border-box;
@@ -35,16 +35,24 @@ body {
     margin-bottom: 2px;
 }
 
+.tel a:hover {
+    background-color: #39930d;
+    color: #fff;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.tel a {
+    transition: 1s all ease;
+}
+
 .info {
     margin-right: 34px;
 }
 
-
 .left-container {
     display: flex;
 }
-
-
 
 .info i {
     font-size: 14px;
@@ -52,19 +60,25 @@ body {
     font-family: "Arial";
 }
 
+.news a{
+    transition: 1s all ease;
+}
+
+.news li:hover >a{
+    background-color: #39930d;
+    padding: 10px;
+    color: #fff;
+    border-radius: 4px;
+}
+
 .wrapper {
     background-color: #fff;
 }
-
-
-
 
 .header-line {
     display: flex;
     justify-content: space-between;
 }
-
-
 
 .number a {
     font-size: 22px;
@@ -100,7 +114,7 @@ ul {
     list-style: none;
     flex-wrap: wrap;
     padding: 2px;
-    margin: 0 20px 0 ;
+    margin: 0 20px 0;
 
 }
 
@@ -111,7 +125,7 @@ ul {
 .main-info p {
     font-size: 14px;
     line-height: 21px;
-    color: #343434;    
+    color: #343434;
 }
 
 .news {
@@ -140,9 +154,6 @@ ul {
 .last-news {
     margin-right: 80px;
 }
-
-
-
 
 .foot-wrap {
     padding: 0px 0px;
