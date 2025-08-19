@@ -46,12 +46,14 @@ a:hover {
     transition: 1s all ease;
 }
 
-.info {
-    margin-right: 34px;
-}
+
 
 .left-container {
     display: flex;
+}
+
+.logo{
+    margin: 0 34px;
 }
 
 .info i {
