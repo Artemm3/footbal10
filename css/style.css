@@ -12,6 +12,8 @@ body {
     margin: 0;
 }
 
+
+
 a:hover {
     cursor: url('/cursor/finger.cur'), auto;
 }
@@ -46,13 +48,14 @@ a:hover {
     transition: 1s all ease;
 }
 
-
-
 .left-container {
     display: flex;
+    row-gap: 10px;
 }
 
-.logo{
+
+
+.logo {
     margin: 0 34px;
 }
 
@@ -62,14 +65,13 @@ a:hover {
     font-family: "Arial";
 }
 
-.news a{
+.news a {
     transition: 1s all ease;
 }
 
-.news li:hover >a{
-    background-color: #39930d;
-    padding: 10px;
-    color: #fff;
+.news li:hover>a {
+
+    color: #020202;
     border-radius: 4px;
 }
 
@@ -80,6 +82,7 @@ a:hover {
 .header-line {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .number a {
@@ -92,7 +95,7 @@ a:hover {
 .tel {
     font-size: 22px;
     color: #39930d;
-    text-align: right;
+    text-align: center;
     margin: 0px;
 }
 
@@ -122,6 +125,7 @@ ul {
 
 .info-news {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .main-info p {
@@ -132,6 +136,7 @@ ul {
 
 .news {
     padding-left: 40px;
+    min-width: 280px;
 }
 
 .news h3 {
@@ -142,7 +147,7 @@ ul {
 }
 
 .news a {
-    font-size: 14px;
+    font-size: 15px;
     line-height: 28px;
     text-decoration: underline;
     text-transform: uppercase;
@@ -153,8 +158,11 @@ ul {
     padding-bottom: 33px;
 }
 
-.last-news {
-    margin-right: 80px;
+.picture {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: 75%;
 }
 
 .foot-wrap {
@@ -168,4 +176,49 @@ footer p {
     background-color: #39930d;
     padding: 14px;
     margin: 0;
+}
+
+@media screen and (min-width: 720px){
+    .header-line{
+        justify-content: space-between;
+    }
+}
+
+@media screen and (min-width: 280px) {
+.left-container{
+    display: block;
+    flex-wrap: wrap;
+}
+} 
+
+@media screen and (max-width: 480px) {
+    .header-line {
+      justify-content: center;
+    }
+    
+}
+
+
+
+@media screen and (min-width: 626px) {
+    .left-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .tel p {
+        text-align: right;
+    }
+}
+
+@media screen and (min-width: 668px) {
+    .info-news {
+        flex-wrap: nowrap;
+    }
+}
+
+@media screen and (min-width: 558px) {
+    .last-news {
+        margin-right: 80px;
+    }
 }
